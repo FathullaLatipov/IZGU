@@ -1,0 +1,504 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #E5E5E5;
+}
+
+body #navi li {
+  list-style: none;
+}
+
+body #navi li a {
+  text-decoration: none;
+}
+
+body #navi li .active {
+  background-color: #0E73F6;
+}
+
+body nav {
+  font-weight: 600;
+  background-color: #fff;
+}
+
+body nav .navbar-nav {
+  padding-left: 66px;
+}
+
+body nav .navbar-nav .nav-item .nav-link.home {
+  color: #0D9676;
+}
+
+body nav .navbar-nav .nav-item .nav-link.catalog {
+  color: #0D9676;
+}
+
+body nav .navbar-nav .nav-item .nav-link {
+  color: #000;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+body nav .navbar-nav .nav-item .nav-link:hover {
+  color: #0D9676;
+}
+
+body nav .navbar-nav .nav-item:not(:first-child) {
+  padding-left: 40px;
+}
+
+body nav .navbar-brand {
+  padding-left: 64px;
+}
+
+body nav .collapse {
+  padding-right: 64px;
+}
+
+body nav .collapse form .button-last {
+  background: #0D9676 !important;
+  border-radius: 16px !important;
+  height: 46px;
+  margin-left: 12px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+body nav .collapse form .dropdown .dropdown-toggle {
+  width: 127px;
+  height: 48px;
+  background: #EEF0F2;
+  border: 1px solid #D5DADD;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 16px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 22px;
+  outline: none !important;
+}
+
+body nav .collapse form .dropdown .dropdown-toggle img {
+  padding-right: 10px;
+}
+
+body nav .collapse form .dropdown .dropdown-menu {
+  min-width: 127px !important;
+  background: #EEF0F2;
+  border: 1px solid #D5DADD;
+  border-radius: 16px;
+  margin-top: 8px;
+  padding-top: 0;
+}
+
+body nav .collapse form .dropdown .dropdown-menu .first {
+  padding-top: 14px !important;
+}
+
+body nav .collapse form .dropdown .dropdown-menu button {
+  padding-top: 14px;
+  padding-left: 12px;
+}
+
+body header .top {
+  padding-top: 32px;
+}
+
+body header .top h1, body header .top h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+body header .top p {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+body header .carousel {
+  width: 1090px;
+  height: 444px;
+  margin-top: 40px;
+}
+
+body header .carousel .carousel-indicators li {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+
+body header .carousel .carousel-item img {
+  width: 1090px;
+  height: 444px;
+}
+
+body .main-top .section-top h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  margin-top: 48px;
+}
+
+body .main-top .section-top p {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  margin: 0;
+}
+
+body .main-top .section-bottom .row {
+  padding: 0;
+  margin-bottom: 49px;
+}
+
+body .main-top .section-bottom .row .col-4:not(:first-child) {
+  margin-left: 24px;
+}
+
+body .main-top .section-bottom .row .col-4 {
+  padding: 0;
+  margin-top: 40px;
+  max-width: 347.33px !important;
+  height: 229px;
+  background: #FFFFFF;
+  border-radius: 24px;
+}
+
+body .main-top .section-bottom .row .col-4 img {
+  padding-top: 20px;
+  padding-bottom: 36px;
+}
+
+body .main-top .section-bottom .row .col-4 h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  padding-bottom: 4px;
+}
+
+body .main-top .section-bottom .row .col-4 p {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+body .main-bottom {
+  background: #fff;
+  height: 256px;
+  width: 100%;
+  border-radius: 24px;
+}
+
+body .main-bottom h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  padding-top: 32px;
+  padding-bottom: 4px;
+}
+
+body .main-bottom p {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  margin: 0;
+}
+
+body .main-bottom button {
+  margin-top: 28px;
+  width: 318px;
+  height: 56px;
+  background: #0D9676;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+body footer {
+  height: 72px;
+  background: #FFFFFF;
+  margin-top: 32px;
+}
+
+body footer .container {
+  padding-top: 24px;
+}
+
+body footer .container p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+body footer .container .footer-right a:not(:last-child) {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+body .second-half .container .row {
+  margin-top: 12px;
+}
+
+body .second-half .container .row .col-3 {
+  padding: 0;
+  margin-top: 20px;
+}
+
+body .second-half .container .row .col-3 .card {
+  width: 260.5px;
+  height: 403px !important;
+  background: #FFFFFF;
+  border-radius: 24px;
+}
+
+body .second-half .container .row .col-3 .card .card-body {
+  padding: 16px;
+}
+
+body .second-half .container .row .col-3 .card .card-body h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+body .second-half .container .row .col-3 .card .card-body p {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: -0.019em;
+  color: #84919A;
+}
+
+body .second-half .container .row .col-3 .card .card-body button {
+  width: 228.5px;
+  height: 56px;
+  background: #0D9676;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+body .second-half .container .row .col-3 .card .card-body button:hover {
+  background: #F5F5F5;
+  color: #0D9676;
+}
+
+body .second-half .container .row .col-3 .card .card-body .change {
+  padding-bottom: 32px;
+}
+
+body .second-half .container .row .modal .modal-dialog {
+  max-width: 648px !important;
+  height: 508px;
+}
+
+body .second-half .container .row .modal .modal-dialog .modal-content {
+  max-width: 648px !important;
+  height: 508px;
+}
+
+body .second-half .container .row .modal .modal-dialog .modal-content .modal-header p {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 28px;
+  color: #B0BABF;
+  letter-spacing: -0.019em;
+  margin: 0;
+}
+
+body .second-half .container .row .modal .modal-dialog .modal-content .modal-header button {
+  border: none;
+  outline: none;
+}
+
+body .second-half .container .row .modal .modal-dialog .modal-content .modal-header button span {
+  position: absolute;
+  top: 37px;
+  right: 37px;
+  color: rgba(50, 50, 50, 0.5);
+  font-size: 37px;
+}
+
+body .second-half .container .row .modal .modal-dialog .modal-content .modal-body .row .col-5 img {
+  width: 276px;
+  height: 296px;
+  margin: 4px 0 0 5px;
+}
+
+body .second-half .container .row .modal .modal-dialog .modal-content .modal-body .row .col-7 {
+  padding: 0;
+}
+
+body .second-half .container .row .modal .modal-dialog .modal-content .modal-body .row .col-7 .modal-top h4 {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+body .second-half .container .row .modal .modal-dialog .modal-content .modal-body .row .col-7 .modal-top .size {
+  width: 317px;
+  height: 40px;
+  background: #EEF0F2;
+  border-radius: 10px;
+}
+
+body .second-half .container .row .modal .modal-dialog .modal-content .modal-body .row .col-7 .modal-top .size .active {
+  background-color: #fff;
+}
+
+body .second-half .container .row .modal .modal-dialog .modal-content .modal-body .row .col-7 .modal-top .size button {
+  margin: 4px 0 4px 0;
+  width: 100px;
+  height: 32px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+body .second-half .container .row .modal .modal-dialog .modal-content .modal-body .row .col-7 .modal-top .size .first {
+  margin-left: 4px;
+}
+
+body .second-half .container .row .modal .modal-dialog .modal-content .modal-body .row .col-7 .modal-top .size .last {
+  margin-right: 4px;
+}
+
+body .second-half .container .row .modal .modal-dialog .modal-content .modal-body .row .col-7 .modal-top .size button:focus {
+  background: #FFFFFF;
+}
+
+body .second-half .container .row .modal .modal-dialog .modal-content .modal-body .row .col-7 .modal-midle h4 {
+  margin-top: 14px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 4px;
+}
+
+body .second-half .container .row .modal .modal-dialog .modal-content .modal-body .row .col-7 .modal-midle p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 0;
+  letter-spacing: -0.019em;
+  color: #6E7C87;
+}
+
+body .second-half .container .row .modal .modal-dialog .modal-content .modal-body .row .col-7 .modal-midle .modal-color button {
+  width: 32px !important;
+  height: 32px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin-bottom: 18px;
+}
+
+body .second-half .container .row .modal .modal-dialog .modal-content .modal-body .row .col-7 .modal-midle .modal-color .first {
+  background: #0E73F6;
+}
+
+body .second-half .container .row .modal .modal-dialog .modal-content .modal-body .row .col-7 .modal-midle .modal-color .second {
+  background: #A23FEE;
+}
+
+body .second-half .container .row .modal .modal-dialog .modal-content .modal-body .row .col-7 .modal-midle .modal-color .third {
+  background: #F8C51B;
+}
+
+body .second-half .container .row .modal .modal-dialog .modal-content .modal-body .row .col-7 .modal-midle .modal-color button:focus {
+  border: 1px solid #000;
+}
+
+body .second-half .container .row .modal .modal-dialog .modal-content .modal-body .row .col-7 .modal-bottom {
+  width: 308px;
+  height: 56px;
+  background: #0D9676;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 24px;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  margin-top: 22px;
+}
+
+body .second-half .container .row .modal .modal-dialog .modal-content .modal-body .row .col-7 .modal-bottom:hover {
+  background-color: #EEF0F2;
+  color: #0D9676;
+  border: 1px solid #0D9676;
+}
+
+body .second-half .container .row .modal2 .modal-dialog2 {
+  height: 359px !important;
+}
+
+body .second-half .container .row .modal2 .modal-dialog2 .modal-content {
+  height: 359px !important;
+}
+
+body .second-half .container .row .modal2 .modal-dialog2 .modal-content .modal-body .row .col-5 img {
+  width: 276px;
+  height: 211px;
+}
+/*# sourceMappingURL=main.css.map */
+.tab-cont{
+  float: left;
+  width: 30%;
+  background-color: #eee;
+  height: 100%;
+  border-right: 1px solid #d1d1d1;
+}
+.tab-cont button{
+  width: 100%;
+  background-color: inherit;
+  padding: 18px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.tab-cont button:hover{
+  background-color: #ccc;
+}
+.tab-content{
+  
+  height: 100%;
+  float: left;
+  padding: 20px;
+  width: 70%;
+  animation: anime 1s 
+
+}
+
+.tab-content h2{
+  font-size: 24px;
+  font-weight: 400;
+  margin: 20px 0 10px 0;
+  
+}
+.tab-content p{
+  font-weight: 100;
+  color: #666;
+  margin-top: 20px
+}
+.tab-cont .but.active{
+  background-color: #b4b4b4;
+}
+@keyframes anime {
+  from{opacity: 0}
+  to{opacity: 1}
+}
